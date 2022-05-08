@@ -1,0 +1,317 @@
+/* United States First Page Mina Nady*/
+html.mn2022 header, h3.first {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 100px;
+    float: center;
+    
+    
+    }
+    
+    html.mn2022 body.first {
+      /* background-image: url('forestbridge.jpg'); */
+      background-image: linear-gradient( #022534, #08545c, #A0BAcc);
+      background-attachment: fixed;
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+      
+    
+    }
+    
+    html.mn2022 h1.first {
+      font-size: 90px;
+      margin: 10% 0px -5px 0px;
+      animation-name: head;
+      animation-duration: 12s;
+      color: white;
+      text-align: center;
+    }
+    @keyframes head {
+      10% {color: rgb(0, 0, 0); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+      20% {color: rgb(161, 243, 239); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+      30% {color: rgb(70, 190, 211); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+      40% {color: rgb(67, 141, 184); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+      50% {color: rgb(115, 71, 185); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+      60% {color: rgb(149, 36, 153); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+      70% {color: rgb(189, 45, 165); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+      80% {color: rgb(189, 73, 137); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+      90% {color: rgb(196, 65, 71); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+      95% {color: rgb(223, 118, 162);text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+      100% {color: white;}
+    }
+    html.mn2022 h3.first {
+      font-size: 30px;
+      margin: 2px 0px 277px 0px;; 
+      color: white;
+      text-align: center;
+      font-family: "Sofia", sans-serif;
+    
+    }
+    html.mn2022 hr {
+      margin-top: -10px;
+    }
+    
+    html.mn2022 ul{
+    list-style-type: none;
+      margin:17px -26px 72px 0px;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      border: none;
+      border-radius: 30px; 
+      width: 97%;
+    }
+    
+    html.mn2022 li a {
+        text-decoration: none;
+        text-align: center;
+        display: inline;
+        float: left;
+        color: white;
+        padding: 14px 16px; 
+    }
+    
+    html.mn2022 li a:hover {
+      background-color: white;
+      color: black;
+      border: none;
+      border-radius: 30px;
+      transition: 0.7s;
+    }
+    
+    html.mn2022 div.header {
+      color: white;
+      font-size: 40px;
+      margin: 164px 0px 0px 0px;
+      text-align: center;
+    
+    
+    
+    }
+    
+    /* Images */
+    html.mn2022 div.img_with_desc {
+      border: 1px solid gray;
+      border-radius: 13px;
+      margin: 17px 0px 0px 0px;
+      padding: 12px 0px 7px 0px;
+    }
+    html.mn2022 img.first {
+      float: left;
+      box-sizing: border-box;
+      max-width: 300px;
+      margin: -150px 0px 12px 25px;
+      padding: 0px 0px 0px 0px;
+      border: none;
+      border-radius: 13px;
+    }
+    html.mn2022 p.desc_of_photo {
+      color: white;
+      font-family: "Sofia", sans-serif;
+      text-align: right;
+      margin: -26px 7px -9px 0px;
+      padding: 12px 0px 52px 0px;
+    }
+    
+    html.mn2022 img.first:hover {
+      transition: 0.6s;
+      box-shadow: 22px 17px 59px -15px black;
+    }
+    
+    /* Videos */
+    html.mn2022 video.video {
+      border: none;
+      /* border-radius: 13px; */
+      /* margin: -35px 440px 0px 0px; */
+      text-align: center;
+      
+    }
+
+    html.mn2022 p.first {
+      color: white;
+      margin: 0px 0px 0px 0px;
+      padding: 0px 0px 38px 0px;
+      font-family: "Sofia", sans-serif;
+    
+    }
+    
+    html.mn2022 p.under_video {
+      color: white;
+      margin: 17px 0px 0px 0px;
+      padding: 12px 0px 38px 0px;
+      font-family: "Sofia", sans-serif;
+      text-align: center;
+      border: 1px solid gray;
+      border-radius: 13px;
+    }
+    
+    /* Login */
+    html.mn2022 input[type=text], select {
+    width:100%;
+    padding: 9px 0px 10px 0px;
+    margin: 8px 0px 11px -6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    
+    html.mn2022 input[type=submit] {
+    width: 100%;
+    background-color: #272626;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    }
+    
+    html.mn2022 input[type=submit]:hover {
+    background-color: #9eccfa;
+    color: rgb(0, 0, 0);
+    }
+    
+    html.mn2022 div.login {
+    border-radius: 5px;
+    background-color: gray;
+    padding: 20px;
+    width: 40%;
+    margin: 164px 370px 43px 330px;
+    color: rgb(0, 0, 0);
+    
+    
+    }
+    
+    html.mn2022 #login {
+      margin:78px 470px -131px 0px;
+      font-family: "Sofia", sans-serif;
+      color: greenyellow;
+      font-size: 30px; 
+    
+    }
+      /* Social Media logo */
+    
+      html.mn2022 .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 0px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      color: white;
+    }
+    
+    html.mn2022 .fa:hover {
+        color:rgb(207, 177, 8)
+    }
+    
+    
+    html.mn2022  div.logo {
+        background-color: black;
+        margin: 0px 0px -10px 0px;
+    }
+    
+    html.mn2022 div.label {
+        margin: 20px 0px 0px 0px;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* about us */
+    html.mn2022  body.about {
+        background-color: rgb(201, 201, 201);
+        background-image: url("images/hero.png");
+        background-position: right;
+        background-attachment: fixed;
+        background-size: 370px;
+        background-repeat: no-repeat;
+        box-shadow: -5px 41px 51px 3px black;
+ 
+ 
+    }
+ 
+    html.mn2022 h1.about {
+         font-size: 60px;
+       text-shadow: 3px 1px 5px black;
+        width:50%;
+        color:rgb(255, 255, 255);
+        margin: 20px 0px 0px 510px;
+        padding: 58px 0px 38px 0px;
+  
+    }
+ 
+    html.mn2022 p.underphoto {
+     font-family: "Sofia", sans-serif;
+     font-size: 30px;
+     text-align: center;
+    }
+ 
+ 
+  /* Editor Photo */
+  html.mn2022 div.name {
+      box-shadow: 22px 17px 59px -15px black;
+      padding: 5px;  
+ }
+   
+ html.mn2022 div.name img.about {
+ 
+     width: 100%;
+      height: auto; 
+   }
+    
+   html.mn2022 .galery {
+ padding: 0 6px;
+ width: 24.99999%;
+ margin:-24px 51px 0px 465px;
+ }
+ 
+
+ html.mn2022 div.desc {
+      padding: 15px;
+      text-align: center;
+      color: black;
+    }
+ 
+    html.mn2022 p.about {
+ 
+     font-family: 'sofia';
+     font-size: 20px;
+    }
+
+    html.mn2022 button.button {
+      text-decoration: none;
+      border: 1px solid yellow;
+      border-radius: 50px;
+      color: black;
+      margin: 30px 15px 0px 0px;
+      padding: 15px 12px 15px 12px;
+      background-color: yellow;
+    
+    }
+    html.mn2022 button.button:hover {
+      background-color: rgb(184, 184, 49);
+      color: rgb(0, 0, 0);
+      transition: 0.5s;
+      cursor: pointer;
+      box-shadow: 2px 2px 8px 1px rgb(255, 255, 255);
+    }
+
+    /* Button Of Nav Bar */
+    html.mn2022 button.nav {
+      text-decoration: none;
+      background-color: #022534;
+      border: 1px solid white;
+      border-radius: 50px;
+      padding: 15px ;
+      margin: 0px 900px 0px -135px;
+      position: fixed;
+      color: white;
+  }
+
+  html.mn2022 button.nav:hover {
+      background-color: red;
+      transition: 0.5s;
+  }
